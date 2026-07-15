@@ -1,0 +1,88 @@
+.item {
+  display: flex;
+  height: 75px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(37, 37, 37), rgb(53, 53, 53));
+  border-radius: 15px;
+  animation-name: create;
+  animation-duration: 0.5s;
+}
+
+input {
+  border-color: transparent;
+  background: radial-gradient(rgba(49, 49, 49, 0.25), rgba(0, 0, 0, 0.25));
+  height: 25px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button {
+  width: 75px;
+  height: 35px;
+  border-radius: 15px;
+  margin-right: 25px;
+}
+
+.sell-btn {
+  margin-left: 20px;
+  background: linear-gradient(135deg, rgb(0, 158, 0), rgb(0, 61, 0));
+  border-color: rgb(121, 204, 121);
+}
+
+.sell-btn:hover {
+  background: rgb(0, 114, 0);
+  cursor: pointer;
+}
+
+.sell-btn:active {
+  background: rgb(0, 97, 0);
+}
+
+.remove-btn {
+  background: linear-gradient(135deg, rgb(161, 32, 32), rgb(54, 13, 13));
+  border-color: rgb(196, 113, 113);
+}
+
+.remove-btn:hover {
+  background: rgb(117, 29, 29);
+  cursor: pointer;
+}
+
+.remove-btn:active {
+  background: rgb(131, 33, 33);
+}
+
+.name-input {
+  margin-right: 20px;
+}
+
+.price-input {
+  width: 75px;
+  caret-color: transparent;
+}
+
+input:focus {
+  outline: none;
+  border-color: gray;
+}
+
+.sales {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@keyframes create {
+  from {
+    transform: translateY(50%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 100%;
+  }
+}
