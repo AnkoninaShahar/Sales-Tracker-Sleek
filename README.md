@@ -21,12 +21,6 @@ The project utilizes a clean, modular component architecture (`Home`, `ItemList`
 - *Animations:* Framer Motion
 - *Tools & Environment:* Node.js, npm, Git/GitHub
 
-### Why This Stack
-Modern dashboards require a balance of rapid component rendering, reactive state management, and high-fidelity micro-interactions:
-- *Performance & Developer Experience:* Vite provides instantaneous hot module replacement (HMR) and optimized bundling, while React enables clean, modular component composition.
-- *Micro-Interactions:* Framer Motion allows physics-based layout animations (`AnimatePresence`) that elevate standard list operations into fluid visual feedback without heavy CSS overhead.
-- *State Optimization:* Utilizing `useRef` for incremental calculation deltas avoids heavy array re-scans on every keystroke, keeping the interface snappy and responsive.
-
 ---
 ## Usage
 - This project is a modern web application designed for interactive sales tracking and inventory management.
@@ -34,6 +28,7 @@ Modern dashboards require a balance of rapid component rendering, reactive state
 - The interface features interactive "Add Item" controls, real-time incremental pricing fields, and instant tally updates printed directly to the central dashboard view.
 - No complex backend database is required; state is managed locally via React hooks.
 
+---
 ### Build & Run
 Requires Node.js and npm installed on your machine. Open your terminal in the project root directory and run the following commands:
 
