@@ -4,7 +4,7 @@
 
 ---
 ## About
-Sales-Tracker-Sleek is a responsive, modern web application designed to track sales performance, manage individual item inventories, and monitor cumulative revenue in real time. Built using React and Vite, the application features smooth component transitions powered by Framer Motion, interactive price and quantity controls, and automated currency formatting.
+Sales Tracker Sleek is a responsive, modern web application originally built for the local theater company **GIFT** to assist with small bake sales. Built using React and Vite, the application features smooth component transitions powered by Framer Motion, interactive price and quantity controls, and automated currency formatting.
 
 The project utilizes a clean, modular component architecture (`Home`, `ItemList`, `Item`), advanced hooks-driven state management leveraging `useRef` and `useEffect` for precise incremental calculations, and a custom price input handler that enforces strict numerical and decimal constraints. Every item addition, price modification, or deletion is accompanied by fluid layout animations, bringing a polished, desktop-grade user experience to web-based sales tracking.
 
