@@ -28,7 +28,6 @@ The project utilizes a clean, modular component architecture (`Home`, `ItemList`
 - The interface features interactive "Add Item" controls, real-time incremental pricing fields, and instant tally updates printed directly to the central dashboard view.
 - No complex backend database is required; state is managed locally via React hooks.
 
----
 ### Build & Run
 Requires Node.js and npm installed on your machine. Open your terminal in the project root directory and run the following commands:
 
