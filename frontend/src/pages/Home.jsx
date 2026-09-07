@@ -26,7 +26,7 @@ function Home() {
 
   return (
     <div className="home">
-      <h1 className="title">Sale Tracker</h1>
+      <h1 className="title">Sales Tracker</h1>
       <button className="add-btn" onClick={addItem}>
         Add Item
       </button>
