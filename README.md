@@ -38,9 +38,8 @@ npm install
 npm run dev
 ```
 
-<img width="1123" height="581" alt="sales_tracker" src="https://github.com/user-attachments/assets/14632c3d-b6f4-4863-ac55-6cddfa803dfd" />
-
-
 Then open the local development URL (typically `http://localhost:5173`) printed in your terminal to view and interact with the application.
 
 - Even without running it, you can explore the source code (`Home.jsx`, `ItemList.jsx`, `Item.jsx`) to examine the hooks-driven state architecture, custom input parsing logic, and Framer Motion integration.
+
+<img width="1123" height="581" alt="sales_tracker" src="https://github.com/user-attachments/assets/14632c3d-b6f4-4863-ac55-6cddfa803dfd" />
