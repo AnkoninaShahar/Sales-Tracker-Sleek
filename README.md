@@ -42,4 +42,5 @@ Then open the local development URL (typically `http://localhost:5173`) printed 
 
 - Even without running it, you can explore the source code (`Home.jsx`, `ItemList.jsx`, `Item.jsx`) to examine the hooks-driven state architecture, custom input parsing logic, and Framer Motion integration.
 
+### Preview
 <img width="1120" height="578" alt="sales_tracker" src="https://github.com/user-attachments/assets/883effa3-6c7e-4b41-88c1-660edbac0958" />
